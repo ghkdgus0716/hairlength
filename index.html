@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="margin:300px;">	
+	<div id="Q" style="margin:auto; width:400px; background:black; color:white;
+	text-align:center; line-height:50px; font-size:0.8em;">
+	<input type="text"  placeholder="기간을 입력하시오." size = "30" id = "day">日
+	<button id="but"> 결과 </button>
+	</div>
+	<div id="output" style="margin:auto; width:400px; height:200px; background:orange; color:black;
+	text-align:center; line-height: 200px; font-size:1.0em; font-weight:bold;"> =  며칠 후에 머리카락이 얼마나 길어질까?</div>
+
+	<script type="text/javascript">
+
+	
+		but.onclick = function(){
+
+			
+
+			var hairLength = (day.value ) * 0.3;
+			var finalOutput = " 자라날 머리카락은 " + day.value + "일 후 " + hairLength + "mm 입니다.";
+		
+			output. innerHTML = finalOutput;
+
+
+		}
+
+
+
+
+	</script>
+</body>
+</html>  
